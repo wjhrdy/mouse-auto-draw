@@ -57,9 +57,9 @@ def choose(keyword):
 
 
 def download(keyword):
-    fd = dict(color="white",
+    fd = dict(color="black",
               size="medium",
-              layout="tall")
+              layout="square")
 
     bing_crawler = BingImageCrawler(
         parser_threads=5, downloader_threads=5,

@@ -1,0 +1,8 @@
+name: mad
+channels:
+  - defaults
+dependencies:
+  - python=3.8.2
+  - pip:
+    - icrawler==0.6.2
+    - pygame==2.0.0.dev6
